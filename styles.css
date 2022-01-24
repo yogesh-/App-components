@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+  }
+
+html{
+    font-size: 62.5%;
+}
+
+.drawer{
+    display: flex;
+    flex-direction: column;
+    border: 0.5rem solid magenta;
+    width: 20rem;
+}
+
+.drawer-top{
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+.drawer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0rem 1.5rem;
+    
+}
+
+.drawer1:hover, .drawer1:focus{
+    cursor: pointer;
+    background-color: royalblue;
+    border-radius: 0.5rem;
+}
+
+.drawer1:active{
+    cursor: pointer;
+    background-color: royalblue;
+}
+
+.drawer1 .element{
+display: flex;
+flex-direction: row;
+justify-content: center;
+/* background-color: red; */
+}
+
+.drawer1 h3{
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
