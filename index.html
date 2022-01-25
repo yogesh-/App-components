@@ -57,9 +57,99 @@
 
         </div>
 
+        <div class="header-component">
+            <div class="header-left">
+                <span class="material-icons" tabindex="0">
+                    menu
+                    </span>
+                <h1>San Francisco,CA</h1>
+            </div>
+
+            <div class="header-right">
+                <span class="material-icons" tabindex="0">
+                    download
+                    </span>
+                <span class="material-icons" tabindex="0">
+                    print
+                </span>
+                
+                    <span class="material-icons" tabindex="0">
+                        turned_in_not
+                        </span>
+                </span>
+            </div>
+        </div>
+
+        <div class="badge-component">
+            
+            <div class="line1">
+                <span>Some random words</span>
+                <span class="line1_child">3</span>
+            </div>
+
+            <div class="line2">
+                <span>Some random words with large badge</span>
+                <span class="line2_child">3</span>
+            </div>
+
+            <div class="badge-left">
+                <div>
+                <span>Button with badge on the left</span>
+                </div>
+                <div class="badge-left-button">
+                    <button id="button1">Action</button>
+                    <span class="line3_child">4</span>
+                </div>
+            </div>
+
+            <div class="badge-left">
+                <div>
+                    <span>Button with badge on the left</span>
+                    </div>
+                    <div class="toggle-left-button">
+                        <button id="button1" onclick="toggle_button()">Action</button>
+                        <span class="toggle_child" id="toggle_child">4</span>
+                    </div>
+            </div>
+
+
+            <div class="badge-left">
+                <span>Icon with a badge</span>
+                <div class="icon-badge">
+                <span class="material-icons icon1">home</span>
+                <span class="badge_left_child">4</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="snackbar">
+            <span>Can't send photo. Retry in 5 seconds.</span>
+            <span class="mid" tabindex="0">RETRY</span>
+            <span class="snack_bar" tabindex="0">X</span>
+        </div>
 
 
 
+        <div class="dialog">
+            <div class="alert">
+                <h1>Dialog header</h1>
+                <h3>Dialog body text</h3>
+                <div class="alert-action">
+                    <h2>ACTION  1</h2>
+                    <h2>ACTION  2</h2>
+                </div>
+            </div>
+            
+
+            <div class="simple">
+
+            </div>
+
+            <div class="confirmation">
+
+            </div>
+        </div>
 
 
 
@@ -78,6 +168,17 @@
 
 
     </div>
-    
+
+
+    <script>
+        function toggle_button() {
+  var x = document.getElementById("toggle_child");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+    </script>
 </body>
 </html>
